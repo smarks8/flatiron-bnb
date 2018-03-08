@@ -1,4 +1,7 @@
 class Listing
-  def initialize()
+
+  def initialize(location, description)
+    @location = location
+    @description = description
   end
 end

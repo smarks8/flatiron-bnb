@@ -1,4 +1,8 @@
 class Reservation
-  def initialize()
+  
+  def initialize(user, listing, nights)
+    @user = user
+    @listing = listing
+    @nights = nights
   end
 end
